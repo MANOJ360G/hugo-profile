@@ -1,7 +1,7 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
 title: "Manoj Gonuguntla"
-theme: hugo-profile
+theme: Manoj Profile
 
 outputs:
   home:
