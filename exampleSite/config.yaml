@@ -281,7 +281,7 @@ params:
     items:
       - title: Image Caption Generator
         content: Developed an image caption generator using CNN, ResNet50, and GloVe embeddings.Incorporated GloVe word embeddings for textual understanding and implemented a language generation model.Created a user-friendly frontend using Streamlit for seamless interaction.
-        image: /images/projects/profile.png
+        image: /images/projects/imagecaption.png
         featured:
           name: Demo
           link: https://github.com/MANOJ360G/IMAGE-CAPTION-GENERATOR
@@ -312,7 +312,7 @@ params:
 
       - title: Forest Fire Prediction with ML- Weather Stack API Integration and Streamlit Development
         content: Developed an ML model for forest fire prediction using Weather Stack API data. Integrated weather data and supervised learning algorithms for accurate predictions. Built a user-friendly Streamlit web interface for real-time predictions. Utilized SendGrid API for timely alerts to prevent forest fires. Demonstrated proficiency in ML model development, API integration, and effective alerting for comprehensive forest fire prevention
-        image: /images/projects/profile2.jpg
+        image: /images/projects/forestfire.jpeg
         featured:
           name: Demo V2
           link: https://github.com/MANOJ360G/forest-fire-prediction/
