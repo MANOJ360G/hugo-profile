@@ -296,7 +296,7 @@ params:
 
       - title: Conversational Banking - Enhancing User Engagement through an AI Chatbot
         content: Developed an AI-powered chatbot using IBM Watson for a banking website.Created an intuitive website with Flask, JavaScript, and Bootstrap, and integrated the chatbot for enhanced user engagement and personalized banking interactions.
-        image: /images/projects/converter.jpg
+        image: /images/projects/watson.png
         featured:
           name: Demo
           link: https://github.com/MANOJ360G/AI-based-discouse-for-Banking-Industry
