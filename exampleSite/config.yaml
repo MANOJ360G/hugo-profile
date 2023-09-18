@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Manoj Gonuguntla"
 theme: hugo-profile
 
 outputs:
@@ -13,7 +13,7 @@ outputs:
     - "RSS"
 
 Paginate: 3
-enableRobotsTXT: true
+enableRobotsTXT: false
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
 
@@ -22,18 +22,18 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+# Menus:
+#   main:
+#     - identifier: blog
+#       name: Blog
+#       title: Blog posts
+#       url: /blogs
+#       weight: 1
+#     - identifier: gallery
+#       name: Gallery
+#       title: Blog posts
+#       url: /gallery
+#       weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -53,7 +53,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
+  title: "Manoj Gonuguntla"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
@@ -118,10 +118,10 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    title: "Manoj."
+    subtitle: "Catalyzing Impact through Data Science, Deep Learning"
+    content: "Passionate about leveraging the power of data science and deep learning to drive impactful solutions. With a strong background in data analysis . I thrive on solving complex problems and uncovering valuable insights."
+    image: themes/hugo-profile/images/profile.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -145,11 +145,11 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: /images/profile.png
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+      I excel in designing and implementing robust ML infrastructure and automation pipelines. I leverage state-of-the-art tools and frameworks such as ,git actions,Huggingface models,replicate models etc to optimize workflows, ensuring scalability and reproducibility of ML processes.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      My ability to seamlessly integrate ML solutions into existing systems empowers organizations to embrace the full potential of their data, gaining a competitive edge in today's rapidly evolving market.If you are seeking a skilled ML/DL engineer and MLOps expert who can deliver exceptional results, I am confident in my ability to drive your organization's success through innovative technologies and data-driven solutions
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -157,74 +157,59 @@ params:
         - "HTML"
         - "CSS"
         - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Python3"
+        - "Flask"
+        - "MongoDB"
+        - "Tensorflow"
+        - "Transformers"
+        - "Git"
+        - "NumPy"
+        - "Pandas"
+        - "OpenCV"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
+      - job: "Software developer Intern"
+        company: "Featurepreneur"
         companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+        date: "Dec 2022 - April 2023"
         featuredLink:
-          enable: true
+          enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: |
+          Worked as an Software developer intern from Ontario,Canada(Remote).
 
-      - job: "Software Developer"
-        company: "Amazon"
+          - Developed Flask applications by providing intuitive user interfaces for data exploration and insights.
+          - Implemented MongoDB for data storage and retrieval
+          - Leveraged web scraping techniques using Selenium to collect data from various websites for analysis and modeling purposes.
+          - Designed and developed applications using the Slack API, integrating data-driven features and automation capabilities.
+          - Worked on color detection using transformers, applying deep learning techniques to analyze and identify colors accurately.
+          -Used Github actions for automatic build and deploy of the model
+
+      - job: "Machine Learning Intern"
+        company: "SmartInternz"
         companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+        date: "May 2023 - July 2023"
         featuredLink:
           enable: true
           url: "https://example.com"
         info:
           enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          content: I worked as a Machine learning Intern .
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Learnt ML & DL from Scratch
+          - Learnt to build neural networks using ANN,CNN,RNN,LSTM etc
+          - Build numerous types of projects by using different ML and DL algorithms
 
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+      
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+      
 
   # Education
   education:
@@ -232,41 +217,39 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
-        school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
       - title: "Bachelor of Science in Computer Science"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          name: "Vellore Institute of Technology, Vellore"
+          url: "https://vit.ac.in/"
+        date: "2020 - 2024"
+        GPA: "8.69 out of 10"
+        
+      # - title: "Bachelor of Science in Computer Science"
+      #   school:
+      #     name: "Massachusetts Institute of Technology"
+      #     url: "https://example.org"
+      #   date: "2009 - 2013"
+      #   GPA: "3.9 out of 5.0"
+      #   content: |-
+      #     I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+      #     - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+      #     - Face mask detection using a single convolutional neural network.
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
+      #     Extracurricular Activities
+      #       - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      #       - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      #   featuredLink:
+      #     enable: true
+      #     name: "My academic record"
+      #     url: "https://example.com"
       - title: "High School"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
+          name: "Sri Chaitanya junior  College"
           url: "https://example.org"
-        GPA: "4.2 out of 5.0"
+        date: "2018 - 2020"
+        GPA: "9.75 out of 10"
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
 
   # Achievements
@@ -277,7 +260,7 @@ params:
       - title: Google kickstart runner
         content: I solved all problems with optimal solution.
         url: https://example.com
-        image: /images/achievment.jpg
+        image: themes/hugo-profile/images/profile.png
       - title: Facebook Hackathon Winner
         content: Developed a product using Artificial Intelligence.
         image: /images/achievment.jpg
