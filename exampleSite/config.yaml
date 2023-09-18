@@ -279,50 +279,51 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: Image Caption Generator
+        content: Developed an image caption generator using CNN, ResNet50, and GloVe embeddings.Incorporated GloVe word embeddings for textual understanding and implemented a language generation model.Created a user-friendly frontend using Streamlit for seamless interaction.
         image: /images/projects/profile.png
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          link: https://github.com/MANOJ360G/IMAGE-CAPTION-GENERATOR
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Tensorflow"
+          - "ResNet50"
+          - "Streamlit"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/MANOJ360G/IMAGE-CAPTION-GENERATOR
+          
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+      - title: Conversational Banking - Enhancing User Engagement through an AI Chatbot
+        content: Developed an AI-powered chatbot using IBM Watson for a banking website.Created an intuitive website with Flask, JavaScript, and Bootstrap, and integrated the chatbot for enhanced user engagement and personalized banking interactions.
         image: /images/projects/converter.jpg
         featured:
           name: Demo
-          link: https://django-converter.herokuapp.com
+          link: https://github.com/MANOJ360G/AI-based-discouse-for-Banking-Industry
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "IBM Watson"
+          - "Flask"
+          - "Html"
+          - "CSS"
+          - "JavaScript"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/MANOJ360G/AI-based-discouse-for-Banking-Industry
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
+      - title: Forest Fire Prediction with ML- Weather Stack API Integration and Streamlit Development
+        content: Developed an ML model for forest fire prediction using Weather Stack API data. Integrated weather data and supervised learning algorithms for accurate predictions. Built a user-friendly Streamlit web interface for real-time predictions. Utilized SendGrid API for timely alerts to prevent forest fires. Demonstrated proficiency in ML model development, API integration, and effective alerting for comprehensive forest fire prevention
         image: /images/projects/profile2.jpg
         featured:
           name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          link: https://github.com/MANOJ360G/forest-fire-prediction/
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Scikitlearn"
+          - "Flask"
+          - "SendGrid API"
+          - "WeatherStack API"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/MANOJ360G/forest-fire-prediction/
 
   #Contact
   contact:
