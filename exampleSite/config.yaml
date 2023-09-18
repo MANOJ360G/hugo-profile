@@ -121,7 +121,7 @@ params:
     title: "Manoj."
     subtitle: "Catalyzing Impact through Data Science, Deep Learning"
     content: "Passionate about leveraging the power of data science and deep learning to drive impactful solutions. With a strong background in data analysis . I thrive on solving complex problems and uncovering valuable insights."
-    image: themes/hugo-profile/images/profile.png
+    image: /images/profile.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
