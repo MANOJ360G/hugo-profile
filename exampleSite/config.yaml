@@ -103,7 +103,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "Manoj Profile" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     menus:
@@ -312,7 +312,7 @@ params:
 
       - title: Forest Fire Prediction with ML- Weather Stack API Integration and Streamlit Development
         content: Developed an ML model for forest fire prediction using Weather Stack API data. Integrated weather data and supervised learning algorithms for accurate predictions. Built a user-friendly Streamlit web interface for real-time predictions. Utilized SendGrid API for timely alerts to prevent forest fires. Demonstrated proficiency in ML model development, API integration, and effective alerting for comprehensive forest fire prevention
-        image: /images/projects/forestfire.jpeg
+        image: /images/projects/forestfire1.png
         featured:
           name: Demo V2
           link: https://github.com/MANOJ360G/forest-fire-prediction/
